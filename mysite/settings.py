@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'k7wrpk6zf^bbl64u!#x_#h3r%358et
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thawing-caverns-64750.herokuapp.com']
 
 
 # Application definition
